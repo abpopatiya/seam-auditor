@@ -1,0 +1,20 @@
+{
+  "name": "seam-auditor",
+  "version": "1.0.0",
+  "description": "Detects composition risk in policy documents \u2014 flags when two individually true policies can be wrongly combined by an AI into a false rule.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
